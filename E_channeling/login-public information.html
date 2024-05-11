@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+    <title>E-Medical Centre</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        #heading{
+    color: rgb(0, 120, 138);
+    text-align: center;
+    }
+    </style>
+    <script>
+    //   function checkPassword(){
+    //   let l= document.getElementById('password').value;
+    //   if(l.length< 10){
+    //     document.getElementById("text").innerHTML="The Minimum number of characters are 10";
+    //   }else if(l.length){
+    //     document.getElementById("text").innerHTML="The Maximum number of characters are 15";
+    //   }
+    // }
+    function checkSeNo(){
+      let l= document.getElementById('inputEmail3').value;
+    if(l=1){
+      document.querySelector('check')
+    .addEventListener('click', ()=>{
+      window.location.href="file:///E:/Mest%20project/doctors-profile1.html";
+    });}
+  }
+    </script>
+</head>
+<body>
+    <div class="container">
+            <!-- Heading -->
+              <h1 id="heading"><u>E <font color="purple">Medical center</font></u> <img src="logo.jpg" height="100px" width="100px"></h1>
+              <!-- back to home -->
+              <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="Login-patient.html">
+                Back to home
+                <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
+              </a>
+              <div class="hero">
+                <h4 class="intro" id="back_img "><font size="6" >Reminder</h4></font>
+                <p id="back_img " class="para"><font size="5">You can see public information with or without an accout but you can't done echanneling without an account</p></font>
+                </div><br><br>
+                <!-- Information -->
+                <!-- On tables -->
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">No</th>
+                      <th scope="col">Dr-Name</th>
+                      <th scope="col">Dr-qualifications</th>
+                      <th scope="col">Dr-reviews</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Kamal perera</td>
+                      <td>Bsc Degree</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Pasan Bandara</td>
+                      <td>Bsc Degree</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Nimal Karunathilaka</td>
+                      <td>Bsc Degree</td>
+                      <td></td>
+                    </tr>                   
+                  </tbody>
+                </table>
+                <br>
+                <form>
+                  <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Doctor's serial number</label>
+                    <div class="col-sm-10">
+                      <input type="number" class="form-control" id="inputEmail3">
+                    </div>
+                  </div>
+                  <center><button onclick="checkSeNo()" class="btn btn-success" id="check">Next</button></center><br>
+                </form>
+    <!-- footer -->
+    <footer>
+        <div class="footercontainer">
+          <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+          <div class="footerBottom">
+            <h5 id="footerH">Contact Number:0773064826</h5>
+          <h5 id="footerH">Email:gimhanbandara20@gmail.com</h5>
+            <p>Copyright &copy; 2024 Designed by <span class="designer">Gimhan Bandara</span></p>
+          </div>
+        </div>
+        </footer>
+        </div>
+</body>
+</html>

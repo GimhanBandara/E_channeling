@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+    <title>E-Medical Centre-login</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+      *{
+        margin: 0;
+        margin: 0;
+        box-sizing: border-box;
+        /* font-family: "poppins, sans-serif"; */
+      }
+        #heading{
+    color: rgb(0, 120, 138);
+    text-align: center;
+    }body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      /* background: #AFAFAF; */
+      background: url(login0.jpeg) no-repeat; 
+      background-size: cover;
+      background-position: center;
+      /* background: seagreen; */
+    }.login{
+      width: 420px;
+      background : transparent;
+      border: 2px solid rgba(255, 255, 255, .2);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+      color: #fff;
+      border-radius: 10px;
+      padding: 30px 40px;
+    }.login h1{
+      font-size: 36px;
+      text-align: center;
+    }.login .input-box{
+      position: relative;
+      width: 100%;
+      height: 50px;
+      margin: 30px 0;
+    }.input-box input{
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      border: 2px solid rgba(255, 255, 255, .2);
+      border-radius: 40px;
+      font-size: 16px;
+      color: #fff;
+      padding: 20px 45px 20px 20px;
+    }.input-box input::placeholder{
+      color: #fff;
+     }.input-box i{
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translate(-50%);
+      font-size: 20px;
+     }.login .butn{
+      width: 100px;
+      height: 45px;
+      background: #fff;
+      border: none;
+      outline: none;
+      border-radius: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+      cursor: pointer;
+      font-size: 16px;
+      color: #333;
+      font-weight: 600;
+     }
+    </style>
+    </head>
+<body>
+    <div class="container">
+      <br><br>
+      <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="index.html">
+        Back to home
+        <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
+      </a><br><center>
+      <div class="login">
+        <form action="">
+          <h1>Login</h1>
+          <div class="input-box">
+            <input type="text" placeholder="Username" required>
+            <i class='bx bxs-user'></i>
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="Password" required>
+            <i class='bx bxs-lock-alt'></i>
+          </div>
+          <a type="submit" href="Login-patient.html" class="butn">Login</a>
+        </form>
+      </div></center>
+      <!-- <center><img src="login.png" class="img-thumbnail" height="200px" width="200px" alt="..."></center><br><br>
+      <form>
+        <div class="row mb-3">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3">
+          </div>
+        </div>
+        <a type="submit" href="login-patient.html" class="btn btn-success">Login</a>
+      </form><br> --><br><br>
+      <!-- footer -->
+      <footer>
+        <div class="footercontainer">
+          <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+          <div class="footerBottom">
+            <h5 id="footerH">Contact Number:0773064826</h5>
+          <h5 id="footerH">Email:gimhanbandara20@gmail.com</h5>
+            <p>Copyright &copy; 2024 Designed by <span class="designer">Gimhan Bandara</span></p>
+          </div>
+        </div>
+        </footer>
+    </div>
+</body>
+<html></html>
